@@ -15,6 +15,8 @@ struct Pengeluaran {
 Pengeluaran* daftarPengeluaran = nullptr;
 
 void logo () {
+    cout << "\033[2J\033[H\033[5m";
+    cout << "\033[34m";
     cout << R"(
      _____  _  __  _____ 
     / ____|| |/ / / ____|
